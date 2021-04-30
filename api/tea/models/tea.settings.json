@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teas",
+  "info": {
+    "name": "tea",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "taste": {
+      "type": "string"
+    },
+    "boba": {
+      "type": "string"
+    },
+    "straw": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "teas"
+    }
+  }
+}

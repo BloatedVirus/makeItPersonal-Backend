@@ -15,19 +15,25 @@
     "taste": {
       "type": "string"
     },
-    "boba": {
-      "type": "string"
-    },
     "straw": {
       "type": "string"
     },
-    "description": {
+    "ticket": {
       "type": "text"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
       "via": "teas"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
     }
   }
 }
